@@ -1,0 +1,100 @@
+body {
+	overflow-x: hidden;
+	font-family: sans-serif;
+	color: lightblue;
+}
+/*--Navigation ---*/
+.navbar {
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 0.9rem;
+	letter-spacing: 0.1rem;
+	background: rgba(0, 0, 0, 0) !important ;
+}
+
+.navbar-brand img {
+	height: 4rem;
+}
+.navbar-nav li {
+	padding-right: 0.7rem;
+}
+.navbar-light .navbar-nav .nav-link {
+	color: red;
+	padding-top: 0.8rem;
+}
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link:hover {
+	color: #1ebba3;
+}
+
+/*-------Landing Page-------*/
+.home-inner {
+	background-image: url(img/kawolegal.jpg);
+}
+.caption {
+	width: 100%;
+	max-width: 100%;
+	position: absolute;
+	top: 30%;
+	z-index: 1;
+	color: white;
+}
+.caption h1 {
+	font-size: 5rem;
+	font-weight: 500;
+	letter-spacing: 0.1rem;
+	text-shadow: 0.1rem 0.1rem 0.8rem black;
+	padding-bottom: 0.8rem;
+}
+.caption h3 {
+	font-size: 2rem;
+	text-shadow: 0.1rem 0.1rem 0.5rem black;
+	padding-bottom: 1.6rem;
+}
+.btn-lg {
+	border-width: medium;
+	border-radius: 0;
+	padding: 0.6rem 1.3rem;
+	font: size 1.1rem;
+}
+
+/*---Footer section------------*/
+
+footer {
+	background-color: brown;
+	color: white;
+	padding: 2rem 0 2rem;
+	margin-top: 0.8rem;
+}
+footer a {
+	color: white;
+}
+footer svg.svg-inline--fa {
+	font-size: 2rem;
+	margin: 1.2rem 1rem 0 0;
+}
+
+footer svg.svg-inline--fa:hover {
+	color: #1ebba3;
+}
+
+/*============= COURSE SECTION =============*/
+
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
