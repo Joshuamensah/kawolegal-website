@@ -12,6 +12,13 @@
     padding-right: 0.7rem;
 }
 
+.row{
+	margin-top: 90px;
+}
+
+.close {
+	height: 30px;
+}
 
 
 
@@ -20,38 +27,22 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-footer {
+.footer {
 	background-color: brown;
-	color: white;
-	padding: 2rem 0 2rem;
-	margin-top: 0.8rem;
-}
-footer a {
-	color: white;
-}
-footer svg.svg-inline--fa {
-	font-size: 2rem;
-	margin: 1.2rem 1rem 0 0;
+	color: white;	
 }
 
-footer svg.svg-inline--fa:hover {
+
+.footer svg.svg-inline--fa{
+	font-size: 2rem;	
+}
+
+.footer svg.svg-inline--fa:hover {
 	color: #1ebba3;
 }
+
+.footer a {
+	color: white;
+}
+
+

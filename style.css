@@ -2,6 +2,7 @@ body {
 	overflow-x: hidden;
 	font-family: sans-serif;
 	color: lightblue;
+	
 }
 /*--Navigation ---*/
 .navbar {
@@ -28,9 +29,14 @@ body {
 }
 
 /*-------Landing Page-------*/
+
 .home-inner {
-	background-image: url(img/kawolegal.jpg);
+	background-image: url(img/kawolegal.jpg) ;
 }
+
+
+
+
 .caption {
 	width: 100%;
 	max-width: 100%;
